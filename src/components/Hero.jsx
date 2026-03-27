@@ -52,6 +52,7 @@ const Hero = () => {
         end: endValue,
         scrub: true,
         pin: true,
+        /* pinSpacing: false, */
       },
     });
 
@@ -98,7 +99,7 @@ const Hero = () => {
         </div>
       </section>
 
-      <div className="video absolute inset-0">
+      <div className="video absolute inset-0 w-full ">
         <video
           ref={videoRef}
           src="/videos/output.mp4"
