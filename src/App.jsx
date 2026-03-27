@@ -1,23 +1,18 @@
 import { ScrollTrigger, SplitText } from "gsap/all";
 import gsap from "gsap";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const App = () => {
   return (
-<<<<<<< Updated upstream
     <main>
       <Navbar />
+      <Hero />
+      <div className="h-dvh bg-black" />
     </main>
   )
 }
-=======
-    <div>
-      <h1 className="text-3xl ">Hello</h1>
-    </div>
-  );
-};
->>>>>>> Stashed changes
 
 export default App;

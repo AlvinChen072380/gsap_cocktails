@@ -107,7 +107,7 @@ body {
             @apply container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5;
 
             .content {
-                @apply flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto;
+                @apply flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto will-change-transform;
 
                 p:nth-of-type(2) {
                     @apply font-modern-negra text-6xl text-yellow max-w-xl;
@@ -118,7 +118,7 @@ body {
                 }
 
                 .view-cocktails {
-                    @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full;
+                    @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full will-change-transform;
 
                     p {
                         @apply text-left;
@@ -133,7 +133,7 @@ body {
     }
 
     video {
-        @apply w-full md:h-[80%] h-1/2 absolute bottom-0 left-0 md:object-contain object-bottom object-cover;
+        @apply w-full md:h-[90%] h-1/2 absolute bottom-0 left-0 md:object-contain object-bottom object-cover;
     }
 
     #cocktails {
@@ -324,7 +324,7 @@ body {
                 @apply space-y-4 lg:translate-y-20;
 
                 #title {
-                    @apply font-modern-negra md:text-6xl text-3xl text-yellow max-w-40;
+                    @apply font-modern-negra md:text-6xl text-3xl text-yellow max-w-40 will-change-transform;
                 }
             }
 
